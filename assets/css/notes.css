@@ -1,0 +1,65 @@
+body {
+  background-image: url("/assets/img/Wooden_tiles.jpg");
+  background-repeat: repeat;
+  margin: 10px;
+  font-family: Arial;
+}
+body h1,
+body h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+body h4 {
+  padding: 5px 2px;
+  width: 178px;
+  color: blue;
+  display: inline-block;
+}
+#workspace {
+  min-height: 450px;
+  max-height: 600px;
+  min-width: 600px;
+  max-width: 900px;
+  overflow-y: auto;
+}
+textarea {
+  width: 192px;
+}
+.note {
+  font-family: "Segoe Print", Arial;
+  font-size: 0.8em;
+  background-color: #fdfdca;
+  width: 200px;
+  margin: 5px;
+  display: inline-block;
+  box-shadow: 0 5px 10px 1px #888888;
+}
+.note header {
+  background-color: #f8f7b6;
+}
+.note textarea {
+  background-color: transparent;
+  height: 173px;
+  border: none;
+}
+.edited_note {
+  height: 200px;
+}
+.new_note_form {
+  width: 202px;
+}
+.new_note_form input {
+  width: 194px;
+  margin: 2px;
+}
+.new_note_form textarea {
+  height: 100px;
+  margin: 10px 2px;
+}
+.new_note_form button {
+  background-color: #046F8F;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  display: block;
+}
