@@ -35,4 +35,8 @@ $(document).ready(function(){
 			'html');
 		return false;
 	});
+
+	$('#workspace').on('mouseover', '.edited_note', function() {
+		$(this).draggable({containment: 'parent'}, {cursor: 'crosshair'}, {opacity: 0.7}, {stack: '.edited_note'});
+	});
 });
