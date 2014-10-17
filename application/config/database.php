@@ -48,10 +48,15 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'note_db';
+// $db['default']['hostname'] = 'localhost';
+// $db['default']['username'] = 'root';
+// $db['default']['password'] = '';
+// $db['default']['database'] = 'note_db';
+$db['default']['hostname'] = 'mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/';
+$db['default']['username'] = 'adminPizhTvw';
+$db['default']['password'] = 'nXCE1DXRdxxY';
+$db['default']['database'] = 'achung';
+
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
